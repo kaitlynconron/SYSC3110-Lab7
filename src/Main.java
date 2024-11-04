@@ -12,6 +12,5 @@ public class Main {
 
         System.out.println("Residential Site billable amount: " + site1.getBillableAmount());
         System.out.println("Lifeline Site billable amount: " + site2.getBillableAmount());
-
     }
 }
