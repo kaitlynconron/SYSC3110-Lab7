@@ -1,5 +1,4 @@
 public abstract class Site {
-
     protected static final double TAX_RATE = 0.2;
     protected double _units;
     protected double _rate;
@@ -17,6 +16,4 @@ public abstract class Site {
 
     protected abstract double getBase();
     protected abstract double getTax(double amount);
-
-
 }
