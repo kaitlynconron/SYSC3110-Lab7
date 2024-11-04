@@ -3,12 +3,6 @@ public class LifelineSite extends Site {
         super(units, rate);
     }
 
-    public double getBillableAmount() {
-        double base = getBase();
-        double tax = getTax(base);
-        return base + tax;
-    }
-
     @Override
     protected double getTax(double base) {
         return base * TAX_RATE;

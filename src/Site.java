@@ -15,5 +15,5 @@ public abstract class Site {
     }
 
     protected abstract double getBase();
-    protected abstract double getTax(double amount);
+    protected abstract double getTax(double base);
 }
